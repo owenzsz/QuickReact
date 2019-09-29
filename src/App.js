@@ -11,19 +11,20 @@ const days = ['M', 'Tu', 'W', 'Th', 'F'];
 const meetsPat = /^ *((?:M|Tu|W|Th|F)+) +(\d\d?):(\d\d) *[ -] *(\d\d?):(\d\d) *$/;
 
 // FIREBASE
+
 const firebaseConfig = {
-  apiKey: "api-key",
-  authDomain: "project-id.firebaseapp.com",
-  databaseURL: "https://project-id.firebaseio.com",
-  projectId: "project-id",
-  storageBucket: "project-id.appspot.com",
-  messagingSenderId: "sender-id",
-  appID: "app-id",
+  apiKey: "AIzaSyBImqaPL2W4gGHerdqVEDqU5dK2r2mnf7Q",
+  authDomain: "scheduler-be292.firebaseapp.com",
+  databaseURL: "https://scheduler-be292.firebaseio.com",
+  projectId: "scheduler-be292",
+  storageBucket: "",
+  messagingSenderId: "802805933219",
+  appId: "1:802805933219:web:bc695e96e0f86e595a4b16",
+  measurementId: "G-QEDBWLPP22"
 };
 
 firebase.initializeApp(firebaseConfig);
 
-firebase.initializeApp(firebaseConfig);
 const db = firebase.database().ref();
 
 // AUTH UI
